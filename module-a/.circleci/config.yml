@@ -25,5 +25,5 @@ workflows:
             - common-pre
       - module-a-hello-build/hello-build:
           requires:
-            - common-pre
+            - common-pre 
   

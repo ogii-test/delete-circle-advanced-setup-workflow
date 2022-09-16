@@ -17,7 +17,7 @@ jobs:
       - run: echo 'Hello, from module B! :3'
 
   module-b-postrun:
-    docker:
+    docker: 
       - image: alpine
     steps:
       - run: echo 'Another job for B! :3'
